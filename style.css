@@ -1,0 +1,422 @@
+@import url(fonts.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+
+*{
+    margin:0;
+    padding: 0;
+    list-style-type:none;
+    text-decoration: none;
+    font-family: var(--GR);
+    color: #252B42;
+}
+
+.container{
+    max-width: 1210px;
+    width: 100%;
+    padding: 53px 14px;
+    margin: 0 auto;
+}
+:root{
+    --GB:Graphik-Bold;
+    --GR:Graphik-Regular;
+    --RB:Roboto-Bold;
+    --RB:Roboto-Black;
+    --RR:Roboto-Regular;
+}
+a{
+    color: white;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.all{
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+     gap: 290px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 290px;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    gap: 41px;
+    user-select: none;
+}
+
+header{
+    background: url(img/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icons{
+    font-size:40px;
+    display: flex;
+    gap: 30px;
+    color:white;
+}
+
+
+.twit{
+    transition: 800ms;
+    color: white;
+}
+
+.twit:hover{
+    color:#1DA1F2;
+}
+
+.face{
+    transition: 800ms;
+    color: white;
+}
+
+.face:hover{
+    color: #3B5998;
+}
+
+.linke{
+    transition: 800ms; 
+    color: white;
+}
+
+.linke:hover{
+    color: #0E76A8;
+}
+
+
+.header-content h1{
+    color: white;
+    width: 672px;
+    font-size: 74px;
+    line-height:84px;
+    margin-bottom: 40px;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 16px 62px;
+    background: #2091F9;
+    border-radius: 35px;
+    margin-bottom: 223px;
+    width: 111px;
+    user-select: none;
+    color: white;
+}
+
+.header-content p{
+    font-size: 28px;
+    color: white;
+    line-height: 40px;
+    width: 800px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-bottom: 50px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    gap: 76px;
+    margin-bottom: 110px;
+}
+
+.main-content h2{
+    font-size: 48px;
+    letter-spacing: 0.2px;
+    margin-bottom: 25px;
+}
+
+.main-content p{
+    color: #374754;
+    font-size: 23.72px;
+    letter-spacing: 0.2px;
+    width: 532px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.imac{
+    font-size: 61px;
+    color: #2091F9;
+    margin-bottom: 28px;
+}
+
+.mini-card h3{
+    color: #252B42;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    font-family:var(--GB);
+    width:210px;
+    margin-bottom: 20px;
+}
+
+.mini-card{
+    text-align: center;
+
+}
+
+.mini-card p{
+    width: 231px;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    color: #374754;
+}
+
+.header-content{
+    user-select: none;
+}
+
+.vid{
+    border-radius:30px;
+    margin-bottom:100px;
+}
+
+.laptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -200px;
+}
+   
+.text h2{   
+    color: #252B42;   
+    font-size: 48px;   
+    letter-spacing: 0.2px;   
+    line-height: 55px;   
+    width: 360px;   
+}   
+   
+.text p{   
+    margin-left: -0px;
+    width: 532px;   
+    text-align: justify;   
+}   
+   
+.macbook{   
+    margin-left: 100px;   
+}   
+
+.main-content-comment form{
+    display: flex;
+    gap: 12px;
+    margin-top:50px;
+}
+
+input, button{
+    outline: none;
+    border: none;
+}
+
+input{
+    color:black ;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white; 
+    font-size: 20px;
+}
+
+.nbt{
+    padding: 19px 38px;
+    border-radius: 35px;
+    background: #2091F9;
+    user-select: none;
+}
+
+input{
+    color: black;
+    padding: 19px 166px 19px 39px;
+    background: #f4f4f4;
+    border-radius: 39px;
+}
+
+.main-content-comment{
+    display: flex;
+    gap: 113px;
+    justify-content: center;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.h3span{
+    color: #374754;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+.texts h4{
+    font-family: var(--GB);
+    color: #252B42;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    line-height: 28px;
+}
+
+.texts h2{
+    color: #252B42;
+    margin-top: 30px;
+}
+
+.main-mini-card{
+    color: #374754;
+    border: 1px #D8D8D8 solid;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cadrs-parent{
+    display: flex;
+    user-select: none;
+    margin-top: 80px;
+}
+ 
+.print{
+    size: 50%;
+}
+.parent-cards{
+    display: flex;
+    user-select: none;
+}
+
+.google h2{
+    letter-spacing: 0.2px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.google p{
+    color:#374754;
+    line-height: 40px;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    width: 628px;
+ 
+    text-align: center;
+}
+
+.parentp{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+}
+
+.uar{
+    display: flex;
+    gap: 13px;
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafs{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: #374754;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.privet{
+    font-size: 20px;
+}
+
+.privet{
+    display: flex;
+    width: 120px;
+}
+.IBM{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.IBM h2{
+    font-size:48px;
+    margin-top: -140px;
+    margin-bottom: 90px;
+}
+
+.IBM p{
+    width:1000px;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    color: #374754;
+    line-height: 40px;
+}
+
+.logo{
+    margin-bottom: 60px;
+}
+
+.IBM p{
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    color: #374754;
+    margin-bottom: 60px;
+}
+
+.mraz{
+    padding: 16px 47px;
+    width: 190px;
+    display: flex;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.price{
+    background: #252B42;
+}

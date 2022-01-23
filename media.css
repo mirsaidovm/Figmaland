@@ -1,0 +1,10 @@
+@media (max-width: 418px) {
+    .nav{
+        overflow: hidden;
+    }
+    h1{
+        font-size:20px;
+        color: black;
+    }
+    .header-content p{
+}
